@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <Button
+        android:id="@+id/loginb2"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="576dp"
+        android:background="@drawable/gradient"
+        android:text="LOGIN"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="27dp"
+        android:background="#00E2C7C7"
+        android:fontFamily="sans-serif-black"
+        android:text="User Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="18dp"
+        android:layout_y="114dp"
+        android:background="@drawable/gradient"
+        android:text=" UserName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uname1"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_x="159dp"
+        android:layout_y="115dp"
+        android:background="@drawable/gradient"
+        android:hint="Enter UserName"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_x="17dp"
+        android:layout_y="176dp"
+        android:background="@drawable/gradient"
+        android:text="Email-ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passd"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_x="19dp"
+        android:layout_y="243dp"
+        android:background="@drawable/gradient"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eid1"
+        android:layout_width="154dp"
+        android:layout_height="40dp"
+        android:layout_x="160dp"
+        android:layout_y="177dp"
+        android:background="@drawable/gradient"
+        android:hint="Enter Email-ID"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="344dp"
+        android:background="@drawable/gradient"
+        android:text="ADD              USER"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="344dp"
+        android:background="@drawable/gradient"
+        android:text="REMOVE USER"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="444dp"
+        android:background="@drawable/gradient"
+        android:text="UPDATE USER"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="192dp"
+        android:layout_y="446dp"
+        android:background="@drawable/gradient"
+        android:text="VIEW        USER"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/upwd"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_x="162dp"
+        android:layout_y="245dp"
+        android:background="@drawable/gradient"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</AbsoluteLayout>

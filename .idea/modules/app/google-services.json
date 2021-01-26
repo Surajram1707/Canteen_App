@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "221552789712",
+    "firebase_url": "https://munch-it-7deee.firebaseio.com",
+    "project_id": "munch-it-7deee",
+    "storage_bucket": "munch-it-7deee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221552789712:android:4897bff7d7ff79b1ebb6d5",
+        "android_client_info": {
+          "package_name": "com.example.munch_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221552789712-hfj9cb8k223ggvhjeu14mdp50qrci22o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.munch_it",
+            "certificate_hash": "453df61302c301aaefe2d8e4e5827c0dda9e3b24"
+          }
+        },
+        {
+          "client_id": "221552789712-vvjcv2pln0r03ti7ccj3ijh89idi0b93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuj4e-fkUhm9vc0MgqlsEWxPOdYQVzFa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221552789712-vvjcv2pln0r03ti7ccj3ijh89idi0b93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
